@@ -1,0 +1,36 @@
+baseURL = "https://ksible.netlify.com/"
+# include content marked as draft
+buildDrafts = false
+# include content with publishdate in the future
+buildFuture = false
+# include content already expired
+buildExpired = false
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+languageCode = "en"
+language = "en"
+theme = "vncnt-hugo"
+title = "Ken Sible"
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
+
+[params]
+  author = "Ken Sible"
+  email = "ksible@outlook.com"
+  description = "Personal Website"
+  bio = "Research Assistant  \nDepartment of Physics and Astronomy  \nWest Virginia University"
+  # bio = "Doctoral Student  \nDepartment of Computer Science and Engineering  \nUniversity of Notre Dame"
+  avatar = "img/portrait.jpg"
+  favicon = "img/black-hole-icon-grey.ico"
+  error404 = "There is no such page."
+
+  [params.contact]
+    bitbucket = "https://bitbucket.org/kennethsible/"
+    github = "https://github.com/kennethsible"
+    gitlab = "https://gitlab.com/kensible"
+    linkedin = "https://www.linkedin.com/in/kensible/"
