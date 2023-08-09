@@ -1,4 +1,4 @@
-baseURL = "https://kensible.com/"
+baseURL = "https://kennethsible.github.io/kensible.com/"
 buildDrafts = false
 buildFuture = false
 buildExpired = false
