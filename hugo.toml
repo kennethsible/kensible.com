@@ -1,0 +1,56 @@
+baseURL = "https://kensible.com/"
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+languageCode = "en"
+language = "en"
+theme = "vncnt-hugo"
+title = "Ken Sible"
+
+_merge = "none"
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
+
+[params]
+  author = "Ken Sible"
+  description = "Personal Webpage"
+  bio = "PhD Student in Computer Science  \nDr. David Chiang's [NLP Group](https://nlp.nd.edu/)  \nUniversity of Notre Dame"
+  avatar = "images/portrait.jpg"
+  favicon = "images/black-hole-icon-grey.ico"
+  error404 = "There is no such page."
+
+  [params.contact]
+    
+    [params.contact.1]
+      name = "Email"
+      icon = "envelope"
+      link = "mailto:ksible@nd.edu"
+      [params.contact.2]
+      name = "Resume"
+      icon = "id-card"
+      link = "/"
+    [params.contact.3]
+      name = "Google Scholar"
+      icon = "graduation-cap"
+      link = "https://scholar.google.com/citations?user=aPgs2KsAAAAJ"
+    [params.contact.4]
+      name = "Github"
+      icon = "github"
+      style = "fab"
+      link = "https://github.com/kennethsible"
+    [params.contact.5]
+      name = "LinkedIn"
+      icon = "linkedin"
+      style = "fab"
+      link = "https://linkedin.com/in/kensible"
+    [params.contact.6]
+      name = "Twitter"
+      icon = "twitter"
+      style = "fab"
+      link = "https://twitter.com/kensible"
